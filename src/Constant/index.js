@@ -23,4 +23,6 @@ export const navlinks =[
         url: '/contact',
     },
     
+    
 ]
+
