@@ -7,8 +7,8 @@ import Home from './Pages/Home'
 import Product from './Pages/Product'
 import About from './Pages/About'
 import  Contact from './Pages/Contact'
-import  Footer from '<div className="" />
-<Pages></Pages>/Footer'
+import  Footer from './Pages/Footer'
+
 
 function App() {
   

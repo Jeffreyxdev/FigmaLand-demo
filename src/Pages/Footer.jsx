@@ -1,4 +1,4 @@
-import { footer } from '../constants';
+import { footer } from '../Constant';
 import { MdOutlineLocationOn, MdPhoneAndroid } from 'react-icons/md'
 import { BsTwitter, BsLinkedin } from 'react-icons/bs'
 import { ImFacebook2 } from 'react-icons/im'
