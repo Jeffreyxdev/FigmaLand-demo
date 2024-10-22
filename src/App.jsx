@@ -7,7 +7,8 @@ import Home from './Pages/Home'
 import Product from './Pages/Product'
 import About from './Pages/About'
 import  Contact from './Pages/Contact'
-
+import  Footer from '<div className="" />
+<Pages></Pages>/Footer'
 
 function App() {
   
@@ -22,6 +23,7 @@ function App() {
         <Route path='/about' element={<About/>} />
         <Route path='/contact' element={<Contact/>} />
       </Routes>
+      <Footer/>
 
     </div>
   )
