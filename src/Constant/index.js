@@ -16,7 +16,10 @@ import android from '../assets/android.png'
 import basecamp  from '../assets/basecamp.png'
 import airbnb from  '../assets/airbnb.png'
 import ibm from   '../assets/ibm.png'
-
+import avatarA from '../assets/avatarA.png'
+import  avatarB from '../assets/avatarB.png'
+import avatarC from '../assets/avatarC.png'
+import avatarD from '../assets/avatarD.png'
 
 
 
@@ -158,3 +161,30 @@ export const partners = [
     {icon: ibm},
  ]
  
+ export const testimonials = [
+    {
+        icon: avatarA,
+        name: 'Claire Bell',
+        role: 'Designer',
+        review: 'Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year'
+    },
+    {
+        icon: avatarB,
+        name: 'Francisco Lane',
+        role: 'Designer',
+        review: 'Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year.'
+    },
+    {
+        icon: avatarC,
+        name: 'Ralph Fisher',
+        role: 'Designer',
+        review: 'Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year.'
+    },
+    {
+        icon: avatarD,
+        name: 'Jorge Murphy',
+        role: 'Designer',
+        review: 'Slate helps you see how many more days you need to work to reach your financial goal for the month and year. Slate helps you see how many more days you need to work to reach your financial goal for the month and year.'
+    },
+]
+
