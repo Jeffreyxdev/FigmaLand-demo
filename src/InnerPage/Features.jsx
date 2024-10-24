@@ -1,6 +1,6 @@
 import  Panel  from '../assets/Panel.png'
 import { features } from '../Constant/index'
-import { textVariant, staggerContainer, fadeIn } from '../utils/motion'
+import { textVariant, staggerContainer, fadeIn } from '../Utils/Motion'
 import { motion } from 'framer-motion'
 
 const Features =({index}) =>{

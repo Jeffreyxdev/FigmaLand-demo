@@ -10,6 +10,14 @@ import CardD  from '../assets/CardD.png'
 import Card from  '../assets/Card.png'
 import Card1  from '../assets/Card1.png'
 import Card2  from '../assets/Card2.png'
+import apple from '../assets/apple.png'
+import apiary from '../assets/apiary.png'
+import android from '../assets/android.png'
+import basecamp  from '../assets/basecamp.png'
+import airbnb from  '../assets/airbnb.png'
+import ibm from   '../assets/ibm.png'
+
+
 
 
 
@@ -141,4 +149,12 @@ export const galleryTop = [
         icon: Card2,
     },
 ]
-
+export const partners = [
+    { icon: apple},
+    { icon: apiary},
+    { icon: android},
+    { icon: basecamp},
+    { icon: airbnb},
+    {icon: ibm},
+ ]
+ 
