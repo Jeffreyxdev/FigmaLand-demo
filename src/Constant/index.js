@@ -1,6 +1,21 @@
 import forks from  '../assets/forks.png'
 import alien from '../assets/alien.png'
 import infinity from '../assets/infinity.png'
+import Macbook from '../assets/Macbook.png'
+import Boards from  '../assets/Boards.png'
+import CardA from '../assets/CardA.png'
+import CardB from '../assets/CardB.png'
+import  CardC from '../assets/CardC.png'
+import CardD  from '../assets/CardD.png'
+import Card from  '../assets/Card.png'
+import Card1  from '../assets/Card1.png'
+import Card2  from '../assets/Card2.png'
+
+
+
+
+
+
 export const navlinks =[
     {
         name: "Home",
@@ -78,3 +93,52 @@ export const footer = [
         ]
     }
 ]
+
+export const content = [
+    {
+        name: 'Work',
+        text: "Ever wondered if you're too reliant on a client for work? Slate helps you identify.",
+        button: 'Sign Up',
+        icon: Macbook,
+    },
+    {
+        name: 'Design with real data',
+        text: "Ever wondered if you're too reliant on a client for work? Slate helps you identify.",
+        button: 'Try For Free',
+        icon: Boards,
+    }
+]
+export const galleryTop = [
+    {
+        name: 'cardd',
+        icon: CardD,
+    },
+    {
+        name: 'cardc',
+        icon: CardC,
+    },
+    {
+        name: 'cardb',
+        icon: CardB,
+    },
+    {
+        name: 'carda',
+        icon: CardA,
+    },
+]
+
+ export const galleryBottom = [
+    {
+        name: 'card',
+        icon: Card,
+    },
+    {
+        name: 'card1',
+        icon: Card1,
+    },
+    {
+        name: 'card2',
+        icon: Card2,
+    },
+]
+
