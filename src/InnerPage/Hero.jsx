@@ -48,7 +48,7 @@ const Hero =() =>{
             data-aos-easing="linear"
             data-aos-duration='500'
             className=" flex flex-wrap justify-around w-[320px]">
-            <button className='w-[139px] h-[50px] rounded-[3px] mt-2 bg-[#268ff1]'>Try for free</button>
+            <button className='w-[139px] h-[50px] rounded-[3px] mt-2 bg-[#cc8419]'>Try for free</button>
             <button className='w-[139px] h-[50px] rounded-[3px] border-[1px] mt-2'>Learn more</button>
           </div>
           <div className="w-screen">

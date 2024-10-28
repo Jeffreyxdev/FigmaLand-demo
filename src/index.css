@@ -68,11 +68,40 @@ border: 1px solid rgba(17, 0, 240, 0.3);
   .try > img{
     padding: 13px;
   }
-
+ .boarder{
+  border: solid 3px #0e0c77;
+  border-radius: 20px;
+}
   .trybtn{
     margin-top: 150px;
     margin-left: 80px;
   }
+  .container {
+    display: inline-block;
+    font-family: "Arial", sans-serif;
+    font-size: 24px;
+  }
+  
+  .typed {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    white-space: nowrap; /* Keeps the content on a single line */
+    border-right: 0.15em solid orange; /* The typwriter cursor */
+    width: 0; /* Hides the text at the start of the animation */
+    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+  
 
   .foot-links > div:nth-of-type(3){
     margin-right: 30px;

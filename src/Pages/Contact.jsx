@@ -1,10 +1,14 @@
-
+import ContactHeader from '../InnerPage/Contact header'
+import ContactForm from '../InnerPage/contacthero';
 
 const Contact =() =>{
     return(
-        <div className="mt-[10vh]">
-            <h2>CONTACT PAGE</h2>
-        </div>
+       <div>
+       
+        <ContactHeader/>
+        <ContactForm/>
+        
+       </div>
     )
 }
 
