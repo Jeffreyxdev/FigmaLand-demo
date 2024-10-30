@@ -82,13 +82,7 @@ border: 1px solid rgba(17, 0, 240, 0.3);
     font-size: 24px;
   }
   
-  .typed {
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    white-space: nowrap; /* Keeps the content on a single line */
-    border-right: 0.15em solid orange; /* The typwriter cursor */
-    width: 0; /* Hides the text at the start of the animation */
-    animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
-  }
+
   
   /* The typing effect */
   @keyframes typing {

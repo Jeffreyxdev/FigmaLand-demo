@@ -2,7 +2,7 @@ import { MdMessage } from 'react-icons/md';
 import { FaPhoneAlt } from 'react-icons/fa';
 import { HiMail } from 'react-icons/hi';
 import Button from '../Button/Button';
-import styles from './ContactForm.module.css'
+
 import { useState } from 'react';
 import img from '../assets/image2.png'
 const ContactForm = () => {
@@ -20,10 +20,10 @@ const ContactForm = () => {
   };
 
   return (
-    <section className={styles.form_section}>
+    <section style={{display:'flex', flexDirection:'row',justifyContent:'space-between',margin:'0 auto',marginLeft:'30px'}}>
         <div>
-          <div className={styles.contact_form}>
-              <div className={styles.top_btn}>
+          <div style={{display:'flex',flexDirection:'column',gap:'24px',maxWidth:'410px',padding:'10px'}}>
+              <div style={{display:'flex',gap:'10px',fontWeight:'600px',}}>
                   <Button text='VIA SUPPORT CHAT' icon={<MdMessage fontSize='20px'/>}/>
                   <Button text='VIA CALL' icon={<FaPhoneAlt fontSize='20px'/>}/>
               </div>
@@ -31,22 +31,22 @@ const ContactForm = () => {
           </div>
           <form 
           onSubmit={onSubmit}
-            className={styles.form}>
-            <div className={styles.form_control}>
+            style={{maxHeight:'400px',marginLeft:'10px'}}>
+            <div style={{display:'flex',flexDirection:'column',width:'420px',position:'relative'}}>
              
-              <input type="text" name='name' placeholder='Enter your Name'/>
+              <input style={{height:'35px',border:'1px solid #ffff', marginTop:'15px',paddingLeft:'30px', borderRadius:'20px'}} type="text" name='name' placeholder='Enter your Name'/>
             </div>
 
-            <div className={styles.form_control}>
+            <div style={{display:'flex',flexDirection:'column',width:'420px',position:'relative'}}>
               
-              <input type="text" name='email' placeholder='abc@example.com'/>
+              <input style={{height:'35px',border:'1px solid #ffff', marginTop:'15px',paddingLeft:'30px',borderRadius:'20px'}} type="text" name='email' placeholder='abc@example.com'/>
             </div>
 
-            <div className={styles.form_control}>
+            <div style={{display:'flex',flexDirection:'column',width:'420px',position:'relative'}}>
               
-              <textarea type="text" name='text' placeholder='Discription'/>
+              <textarea style={{height:'100px', paddingTop:'10px',paddingLeft:'20px',marginTop:'15px', borderRadius:'20px'}}type="text" name='text' placeholder='Discription'/>
             </div>
-            <div className={styles.submit}>
+            <div style={{marginLeft:'70px'}}>
               <Button text='SUBMIT'/>
             </div>
             <p>
@@ -54,7 +54,7 @@ const ContactForm = () => {
             </p>
           </form>
           </div>
-        <div className={styles.contact_image}>
+        <div style={{height:'430px',width:'450px',marginRight:'80px'}}>
           <img src={img} alt="image" />
         </div>
     </section>

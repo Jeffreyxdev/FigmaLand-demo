@@ -17,7 +17,8 @@ const Hero =() =>{
     return(
         <div className="hero overflow-hiddenp-[35px] p-[35px] mt-[150px]
          md:mt-[200px] w-full flex flex-col gap-10 md:gap-10 items-center justify-center">
-            <h1 data-aos="fade-down" 
+            <h1 
+      data-aos="fade-down" 
       data-aos-delay="200"
       data-aos-easing="linear"
       data-aos-duration='500'
