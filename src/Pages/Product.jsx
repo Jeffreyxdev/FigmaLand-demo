@@ -1,12 +1,13 @@
+import Productfeatures from "../InnerPage/product features";
+import Write from "../InnerPage/product write up"
 
+function Product(){
 
-const Product =() =>{
-    return(
-        <div className="mt-[10vh]">
-            <h2>PRODUCT PAGE</h2>
+    return (
+        <div>
+         <Write/>
+         <Productfeatures/>
         </div>
     )
 }
-
-
 export default Product;
