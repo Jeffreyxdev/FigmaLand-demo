@@ -31,7 +31,7 @@ export const navlinks =[
     {
         name: "Home",
         title: "Home",
-        url: '#'
+        url: '/'
 
     },
     {

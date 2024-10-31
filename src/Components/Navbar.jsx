@@ -37,7 +37,9 @@ return (
               )
           })}
       </div>
+      
       <button className='w-[139px] h-[50px] rounded-[3px] border-[1px] mt-2'>Login</button>
+      
     </nav>
 
     {/* mobile navbar */}
@@ -78,7 +80,7 @@ return (
                   variants={sideVariants}
                   className="nav-container md:hidden border flex flex-col fixed text-white w-[55vw]  mt-[120px] h-[350px] justify-around items-end  pr-[18vw] ml-[28%] z-10 rounded-2xl pt-4 bg-[#181818]"
                   >
-                    <div className='flex flex-col   items-center w-[30%]'>
+                    <div className='flex flex-col   items-center w-[39%]'>
                         {
                           navlinks.map((link)=>{
                             return (
