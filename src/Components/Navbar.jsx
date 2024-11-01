@@ -37,9 +37,9 @@ return (
               )
           })}
       </div>
-      
+      <Link to={'/login'}>
       <button className='w-[139px] h-[50px] rounded-[3px] border-[1px] mt-2'>Login</button>
-      
+      </Link>
     </nav>
 
     {/* mobile navbar */}
@@ -49,7 +49,9 @@ return (
         <div className='w-[40%]'>
         <img src={logo} alt="" className='w-[100%] pt-2'/>
         </div>
+        <Link to={'/login'}>
         <button className='w-[130px] h-[45px] rounded-[3px] border-[1px] mt-2'> Login </button>
+        </Link>
       </div>
      
       <div className="w-[10%] pt-3  pl-4" onClick={handleMenuClick}>

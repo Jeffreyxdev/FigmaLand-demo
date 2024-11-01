@@ -8,8 +8,9 @@ import Product from './Pages/Product';
 import About from './Pages/About'
 import  Contact from './Pages/Contact'
 import  Footer from './Pages/Footer'
-
-
+import Login from './Pages/Login'
+import Register from './Pages/Register'
+import ForgetPasswordPage from './Pages/forgot-password';
 function App() {
   
 
@@ -22,6 +23,9 @@ function App() {
         <Route path='/product' element={<Product/>} />
         <Route path='/about' element={<About/>} />
         <Route path='/contact' element={<Contact/>} />
+        <Route path='/login' element={<Login/>}/>
+        <Route path='/register' element={<Register/>}/>
+        <Route path='/forget-password' element={<ForgetPasswordPage/>}/>
       </Routes>
       <Footer/>
 

@@ -6,21 +6,21 @@ import '../App.css'
  function SignUpPage() {
 
     return (
-        <div className="text-center m-5-auto">
-            <h2>Join us</h2>
+        <div className="text-center mt-[150px]">
+            <h2 style={{fontSize:'40px', fontFamily:'sans-serif'}}>Join Us</h2>
             <h5>Create your personal account</h5>
             <form action="/home">
                 <p>
-                    <label>Username</label><br/>
-                    <input type="text" name="first_name" required />
+                    <br/>
+                    <input style={{width:'15rem',padding:'.3rem',borderRadius:'13px',outline:'none',border:'none',textAlign:'center'}} type="text" name="first_name" required placeholder='Username' />
                 </p>
                 <p>
-                    <label>Email address</label><br/>
-                    <input type="email" name="email" required />
+                    <br/>
+                    <input style={{width:'15rem',padding:'.3rem',borderRadius:'13px',outline:'none',border:'none',textAlign:'center'}} type="email" name="email" required  placeholder='Email'/>
                 </p>
                 <p>
-                    <label>Password</label><br/>
-                    <input type="password" name="password" required />
+                    <br/>
+                    <input style={{width:'15rem',padding:'.3rem',borderRadius:'13px',outline:'none',border:'none',textAlign:'center'}} type="password" name="password" required  placeholder='Password'/>
                 </p>
                 <p>
                     <input type="checkbox" name="checkbox" id="checkbox" required /> <span>I agree all statements in <a href="https://google.com" target="_blank" rel="noopener noreferrer">terms of service</a></span>.
@@ -28,7 +28,7 @@ import '../App.css'
                 <p>
                     <button id="sub_btn" type="submit">Register</button>
                 </p>
-            </form>
+            </form><br />
             <footer>
                 <p><Link to="/">Back to Homepage</Link>.</p>
             </footer>

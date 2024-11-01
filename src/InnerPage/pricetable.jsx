@@ -1,5 +1,5 @@
 
-import PriceCard from "./pricecard";
+import PriceCard from "./Pricecard";
 import { useEffect } from "react";
 import AOS from "aos";
 

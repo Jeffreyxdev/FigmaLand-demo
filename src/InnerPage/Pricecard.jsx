@@ -1,4 +1,4 @@
-function PriceCard({ title, description, price, operators }) {
+function PriceCard ({ title, description, price, operators }) {
     const features = [
       `${operators} Operators`,
       "Notifications",

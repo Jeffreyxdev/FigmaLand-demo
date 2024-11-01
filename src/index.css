@@ -27,7 +27,45 @@ body{
   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
   
 }
+  #sub_btn {
 
+    width: 100%;
+    padding: .3rem;
+    margin-top: 20px;
+    border: none;
+    background: #02897A;
+    color: #fff;
+    border-radius: 20px;
+    width: 20vw;
+}
+
+#sub_btn:hover {
+    background: #333;
+    transition: all .5s
+}
+
+footer p {
+    margin: 0;
+    font-size: .9rem
+}
+
+/***    Register Page     ***/
+#checkbox {
+    width: 1rem
+}
+
+form span {
+    font-size: .8rem
+}
+
+#reset_pass_lbl {
+    float: left
+}
+
+.home-page-title {
+  color: #222
+}
+  
 .gallery-image {
   max-width: 100%; /* Ensure images are responsive */
 }
@@ -81,9 +119,7 @@ border: 1px solid rgba(17, 0, 240, 0.3);
     font-family: "Arial", sans-serif;
     font-size: 24px;
   }
-  
 
-  
   /* The typing effect */
   @keyframes typing {
     from { width: 0 }
@@ -103,7 +139,9 @@ border: 1px solid rgba(17, 0, 240, 0.3);
 }
 
 @media screen and (max-width: 768px) {
- 
+ #sub_btn {
+    width: 40vw;
+  }
 }
 
 
