@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Login(){
     return(
       <div className="text-center mt-[180px]">
-      <h2 style={{fontSize:'30px', marginBottom:'15px', fontFamily:'cursive'}}>Sign in to us</h2>
+      <h2 style={{fontSize:'30px', marginBottom:'15px', fontFamily:'sans-serif'}}>Sign in to us</h2>
       <form action="/home">
           <p>
             
