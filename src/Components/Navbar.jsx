@@ -56,7 +56,7 @@ return (
      
       <div className="w-[10%] pt-3  pl-4" onClick={handleMenuClick}>
       {isMenuOpen ? (
-         <AiOutlineClose size='40px' cursor="pointer" />
+         <AiOutlineClose size='40px' cursor="pointer"  />
        ) : (
         <BiMenuAltRight  size='40px' cursor="pointer"   style={{color: '#fff'}} />
        )}
@@ -82,7 +82,7 @@ return (
                   variants={sideVariants}
                   className="nav-container md:hidden border flex flex-col fixed text-white w-[55vw]  mt-[120px] h-[350px] justify-around items-end  pr-[18vw] ml-[28%] z-10 rounded-2xl pt-4 bg-[#181818]"
                   >
-                    <div className='flex flex-col   items-center w-[39%]'>
+                    <div className='flex flex-col   items-center w-[39%]' onClick={handleMenuClick}>
                         {
                           navlinks.map((link)=>{
                             return (
